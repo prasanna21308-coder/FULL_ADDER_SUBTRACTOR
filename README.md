@@ -40,7 +40,8 @@ Borrow out = A'Bin + A'B + BBin
 
 TRUTHTABLE FOR FULL ADDER
 
-<img width="399" height="343" alt="image" src="https://github.com/user-attachments/assets/2a62f06d-0c68-44b4-ae38-9c141d2ec957" />
+<img width="606" height="515" alt="image" src="https://github.com/user-attachments/assets/c7a226ff-1d0e-45f3-8446-94341bdad2c2" />
+
 
 
 
