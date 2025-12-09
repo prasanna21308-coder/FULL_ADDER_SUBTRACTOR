@@ -106,7 +106,36 @@ FULL SUBTRACTOR
 
 **RTL Schematic**
 
+
+1.FULL ADDER
+
+![WhatsApp Image 2025-12-09 at 21 55 30_61a0ee07](https://github.com/user-attachments/assets/9b259989-a2d3-4205-ad3c-5b2f76cfb035)
+
+
+2.FULL SUBTRACTOR
+
+![WhatsApp Image 2025-12-09 at 21 55 30_1ead6ccd](https://github.com/user-attachments/assets/f1b815d4-77c4-482c-b250-fd1b4840649b)
+
+
+
+
 **Output Timing Waveform**
+
+
+1.FULL ADDER
+
+
+![WhatsApp Image 2025-12-09 at 21 56 36_b1b6249c](https://github.com/user-attachments/assets/7cefb1c0-d1e0-429d-baff-f337a75db66c)
+
+
+
+2.FULL SUBTRACTOR
+
+
+
+![WhatsApp Image 2025-12-09 at 21 56 36_69ac8e3b](https://github.com/user-attachments/assets/97161f00-3439-45b2-856b-cb85b7bd5912)
+
+
 
 **Result:**
 
