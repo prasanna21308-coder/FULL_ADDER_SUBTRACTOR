@@ -38,9 +38,12 @@ Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
 
+
 TRUTHTABLE FOR FULL ADDER
 
+
 <img width="606" height="515" alt="image" src="https://github.com/user-attachments/assets/c7a226ff-1d0e-45f3-8446-94341bdad2c2" />
+
 
 
 
@@ -48,7 +51,9 @@ TRUTHTABLE FOR FULL ADDER
 TRUTHTABLE FOR FULL SUBTRACTOR
 
 
+
 <img width="606" height="330" alt="full subtractor" src="https://github.com/user-attachments/assets/d1ca194b-f238-4f18-8a4a-ec2639cc9c60" />
+
 
 
 **Procedure**
@@ -67,32 +72,32 @@ TRUTHTABLE FOR FULL SUBTRACTOR
 
 FULL ADDER
 
-module fa(a,b,cin,sum,carry);
+    module fa(a,b,cin,sum,carry);
 
-input a,b,cin;
+    input a,b,cin;
 
-output sum,carry;
+    output sum,carry;
 
-assign sum=( (a ^ b)^cin);
+    assign sum=( (a ^ b)^cin);
 
-assign carry= ( (a & b)| ( cin &(a ^ b )));
+    assign carry= ( (a & b)| ( cin &(a ^ b )));
 
-endmodule
+    endmodule
 
 
 FULL SUBTRACTOR
 
-module fs(a,b,bin,difference,borrow);
+    module fs(a,b,bin,difference,borrow);
 
-input a,b,bin;
+    input a,b,bin;
 
-output difference,borrow;
+    output difference,borrow;
 
-assign difference= ( (a ^ b)^bin);
+    assign difference= ( (a ^ b)^bin);
 
-assign borrow= ( ( a & b)| ( bin & ((a ^ b ))));
+    assign borrow= ( ( a & b)| ( bin & ((a ^ b ))));
 
-endmodule
+    endmodule
 
 
 
